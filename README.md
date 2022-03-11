@@ -33,7 +33,8 @@ make run
 make clean # clean testing outputs
 ```
 
-1. Check out `commands.ipynb` for a walkthrough of some useful Pandas' operations and commands.
-2. Take a look at a sample ETL pipeline process in `cnc_etl.ipynb`.
+💡 Check out `10_minutes_to_pandas.ipynb` for a short introduction to Pandas!
 
-   Note: Run ipynb: Click `Cell` → `Run All`
+Open `10_minutes_to_pandas.ipynb` → click on `Cell` in the top of the notebook → `Run All` to run all the code cells and follow the instructions to learn some useful Pandas' operations and commands.
+
+💡 Take a look at a sample ETL pipeline process in `cnc_etl.ipynb`.
