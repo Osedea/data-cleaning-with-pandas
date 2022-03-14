@@ -1,8 +1,6 @@
-# Osedea Lunch & Learn - Data Processing with Pandas
+# Data Cleaning with Pandas 🐼
 
-Machine learning and deep learning projects are gaining more and more importance in most enterprises. The complete process includes data preparation, building an analytic model and deploying it to production.
-
-There are various techniques to prepare data, including extract-transform-load (ETL) batch processing, streaming ingestion and data wrangling, etc. we will take a look at how data processing works and how to do that using Python Pandas.
+👉 Find the complete article [here](https://hackmd.io/rtqPSY22Tha3PE0VDAjiYQ?both)✨
 
 ### Requirements
 
@@ -15,15 +13,17 @@ There are various techniques to prepare data, including extract-transform-load (
 ```
 .
 ├── data
-│   │  └── cnc_logs            # CNC logs
-│   │  │   └── original_size   # Original CNC logs
-│   │  │   └── 20191027.log    # Cut from the `original_size` for testing purpose
-│   │  └── car_sales.csv       # mock data
-│   │  └── employees_info.csv  # mock data
-├── output                     # Generated output from `cnc_etl.ipynb`
-├── cnc_etl.ipynb              # ETL pipeline process
-└── commands.ipynb             # Useful Pandas commands introduction
+│   │  └── cnc_logs            # CNC log file
+│   │  │   └── original_size   # Original CNC log file
+│   │  │   └── 20191027.log    # Cut from the `original_size` for testing
+│   │  └── employees_info.csv  # Mock dataset used in `10_minutes_to_pandas.ipynb`
+├── output                     # Exported output from `cnc_etl.ipynb`
+├── cnc_etl.ipynb              # A step-by-step guide to data cleaning with Pandas
+└── 10_minutes_to_pandas.ipynb # A notebook for a quick start to Pandas
 ```
+
+- Check out `10_minutes_to_pandas.ipynb` for a short introduction to Pandas!
+- Take a look at a sample ETL pipeline process in `cnc_etl.ipynb`.
 
 ### Getting started
 
@@ -33,8 +33,5 @@ make run
 make clean # clean testing outputs
 ```
 
-💡 Check out `10_minutes_to_pandas.ipynb` for a short introduction to Pandas!
-
-Open `10_minutes_to_pandas.ipynb` → click on `Cell` in the top of the notebook → `Run All` to run all the code cells and follow the instructions to learn some useful Pandas' operations and commands.
-
-💡 Take a look at a sample ETL pipeline process in `cnc_etl.ipynb`.
+💡To run all the code cells in Jupyter notebook:
+Click on `Cell` in the top of the notebook → `Run All`
